@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+.card-person {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 30vh;
+  max-width: 30vh;
+  height: 60vh;
+  text-align: left;
+  background: $neutral-dark-blue;
+  border-radius: 15px;
+  font-family: "Rubik", sans-serif;
+  .card-time {
+    padding: 1vh 4vh;
+    font-size: 2vh;
+    .card-time-p {
+      margin: 2vh 0 0 0;
+      color: white;
+    }
+  }
+  //information about person (name, report for, image)
+  .card-info {
+    background: $blue;
+    height: 65%;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 4vh 4vh 0 4vh;
+    .card-avatar {
+      width: 10vh;
+      height: 10vh;
+      border: white 0.2rem solid;
+      border-radius: 50%;
+    }
+    .card-report {
+      color: $neutral-pale-blue;
+      margin: 4vh 0 0 0;
+      font-size: 2vh;
+    }
+    //displays name of a person
+    .card-name {
+      margin: 0 0 1vh 0;
+      font-size: 4.5vh;
+      color: white;
+    }
+  }
+}
