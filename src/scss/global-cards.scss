@@ -80,7 +80,7 @@
   border-radius: 15px 15px 0 0;
 }
 .study::before {
-  background: $light-red url(/images/icon-study.svg) no-repeat;
+  background: $light-red url(../images/icon-study.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -94,7 +94,7 @@
   border-radius: 15px 15px 0 0;
 }
 .exercise::before {
-  background: $lime-green url(/images/icon-exercise.svg) no-repeat;
+  background: $lime-green url(../images/icon-exercise.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -108,7 +108,7 @@
   border-radius: 15px 15px 0 0;
 }
 .social::before {
-  background: $violet url(/images/icon-social.svg) no-repeat;
+  background: $violet url(../images/icon-social.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -122,7 +122,7 @@
   border-radius: 15px 15px 0 0;
 }
 .self-care::before {
-  background: $soft-orange url(/images/icon-self-care.svg) no-repeat;
+  background: $soft-orange url(../images/icon-self-care.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";

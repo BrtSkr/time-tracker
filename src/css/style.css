@@ -120,7 +120,7 @@
   border-radius: 15px 15px 0 0; }
 
 .study::before {
-  background: #ff5c7c url(/images/icon-study.svg) no-repeat;
+  background: #ff5c7c url(../images/icon-study.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -134,7 +134,7 @@
   border-radius: 15px 15px 0 0; }
 
 .exercise::before {
-  background: #4acf81 url(/images/icon-exercise.svg) no-repeat;
+  background: #4acf81 url(../images/icon-exercise.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -148,7 +148,7 @@
   border-radius: 15px 15px 0 0; }
 
 .social::before {
-  background: #7536d3 url(/images/icon-social.svg) no-repeat;
+  background: #7536d3 url(../images/icon-social.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -162,7 +162,7 @@
   border-radius: 15px 15px 0 0; }
 
 .self-care::before {
-  background: #f1c65b url(/images/icon-self-care.svg) no-repeat;
+  background: #f1c65b url(../images/icon-self-care.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
