@@ -1,12 +1,13 @@
 @import "./variables.scss";
-
+@import "./hover-states.scss";
 .card-person {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   min-width: 30vh;
   max-width: 30vh;
-  height: 60vh;
+  height: 65vh;
+  margin: 5vh 0 0 0;
   text-align: left;
   background: $neutral-dark-blue;
   border-radius: 15px;
@@ -17,15 +18,21 @@
     .card-time-p {
       margin: 2vh 0 0 0;
       color: white;
+      transition: 0.5s;
+      &:hover {
+        opacity: 0.3;
+        cursor: pointer;
+        transition: 0.3s;
+      }
     }
   }
   //information about person (name, report for, image)
   .card-info {
     background: $blue;
-    height: 65%;
+    height: 70%;
     border-radius: 15px;
     overflow: hidden;
-    padding: 4vh 4vh 0 4vh;
+    padding: 6vh 4vh 0 4vh;
     .card-avatar {
       width: 10vh;
       height: 10vh;
