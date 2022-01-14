@@ -106,7 +106,7 @@
 
 .activity::before {
   content: "";
-  background: url(../images/icon-ellipsis.svg) no-repeat;
+  background: url(/icon-ellipsis.8d740c0b.svg) no-repeat;
   background-position: right;
   position: absolute;
   top: 0;
@@ -115,7 +115,7 @@
   left: 0; }
 
 .work::before {
-  background: #ff8c66 url(../images/icon-work.svg) no-repeat;
+  background: #ff8c66 url(/icon-work.d92a06a8.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -129,7 +129,7 @@
   border-radius: 15px 15px 0 0; }
 
 .play::before {
-  background: #56c2e6 url(../images/icon-play.svg) no-repeat;
+  background: #56c2e6 url(/icon-play.b3d7a525.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -143,7 +143,7 @@
   border-radius: 15px 15px 0 0; }
 
 .study::before {
-  background: #ff5c7c url(../images/icon-study.svg) no-repeat;
+  background: #ff5c7c url(/icon-study.af7d2598.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -157,7 +157,7 @@
   border-radius: 15px 15px 0 0; }
 
 .exercise::before {
-  background: #4acf81 url(../images/icon-exercise.svg) no-repeat;
+  background: #4acf81 url(/icon-exercise.39cbc973.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -171,7 +171,7 @@
   border-radius: 15px 15px 0 0; }
 
 .social::before {
-  background: #7536d3 url(../images/icon-social.svg) no-repeat;
+  background: #7536d3 url(/icon-social.4b1c0947.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -185,7 +185,7 @@
   border-radius: 15px 15px 0 0; }
 
 .self-care::before {
-  background: #f1c65b url(../images/icon-self-care.svg) no-repeat;
+  background: #f1c65b url(/icon-self-care.6da847a0.svg) no-repeat;
   z-index: -2;
   background-position: 90%;
   content: "";
@@ -225,3 +225,6 @@ html {
 
 body {
   background: #0f1424; }
+
+
+/*# sourceMappingURL=/style.967ba849.css.map */
