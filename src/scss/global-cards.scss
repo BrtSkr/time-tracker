@@ -1,14 +1,14 @@
 @import "./variables.scss";
-
+@import './mixins.scss';
 .global-cards {
   display: grid;
   grid-template-columns: auto auto auto auto;
-
   gap: 5vh;
   margin: auto;
   justify-content: center;
   justify-self: center;
   justify-items: center;
+ 
 }
 
 .a {
@@ -22,7 +22,12 @@
   margin: auto;
   position: relative;
   border-radius: 20px;
+  transition: .5s; 
+  &:hover{
+    @include scale-up;
+  }
 }
+
 .content {
   text-align: center;
   border-radius: 20px;
@@ -44,100 +49,30 @@
     font-size: 7vh;
     text-align: left;
 }
-.activity::before {
-  content: "";
-  background: url(../images/icon-ellipsis.svg) no-repeat;
-  background-position: right;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+
 .work::before {
   background: $orange url(../images/icon-work.svg) no-repeat;
-  z-index: -2;
-  background-position: 90%;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  position: absolute;
-  border-radius: 15px 15px 0 0;
+  @include global-card-before;
 }
-
-.play::before {
+.play:before{
   background: $soft-blue url(../images/icon-play.svg) no-repeat;
-  z-index: -2;
-  background-position: 90%;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  position: absolute;
-  border-radius: 15px 15px 0 0;
+  @include global-card-before;
 }
 .study::before {
   background: $light-red url(../images/icon-study.svg) no-repeat;
-  z-index: -2;
-  background-position: 90%;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  position: absolute;
-  border-radius: 15px 15px 0 0;
+  @include global-card-before;
 }
 .exercise::before {
   background: $lime-green url(../images/icon-exercise.svg) no-repeat;
-  z-index: -2;
-  background-position: 90%;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  position: absolute;
-  border-radius: 15px 15px 0 0;
+  @include global-card-before;
 }
 .social::before {
   background: $violet url(../images/icon-social.svg) no-repeat;
-  z-index: -2;
-  background-position: 90%;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  position: absolute;
-  border-radius: 15px 15px 0 0;
+@include global-card-before;  
 }
 .self-care::before {
   background: $soft-orange url(../images/icon-self-care.svg) no-repeat;
-  z-index: -2;
-  background-position: 90%;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  position: absolute;
-  border-radius: 15px 15px 0 0;
+  @include global-card-before;
 }
 .previous-spent-time{
   text-align: left;

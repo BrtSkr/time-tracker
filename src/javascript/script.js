@@ -23,7 +23,7 @@ class LoadTimeframes {
     });
     x = 0;
     this.previousTimeEl.forEach((element) => {
-      element.textContent = `${this.dailyTime[x].timeframes.daily.previous}hrs`;
+      element.textContent = `Previously ${this.dailyTime[x].timeframes.daily.previous}hrs`;
       x++;
     });
   }
@@ -36,7 +36,7 @@ class LoadTimeframes {
     });
     x = 0;
     this.previousTimeEl.forEach((element) => {
-      element.textContent = `${this.dailyTime[x].timeframes.weekly.previous}hrs`;
+      element.textContent = `Previously ${this.dailyTime[x].timeframes.weekly.previous}hrs`;
       x++;
     });
   }
@@ -49,7 +49,7 @@ class LoadTimeframes {
     });
     x = 0;
     this.previousTimeEl.forEach((element) => {
-      element.textContent = `${this.dailyTime[x].timeframes.monthly.previous}hrs`;
+      element.textContent = `Previously ${this.dailyTime[x].timeframes.monthly.previous}hrs`;
       x++;
     });
   }

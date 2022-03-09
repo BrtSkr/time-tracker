@@ -1,0 +1,17 @@
+@mixin global-card-before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  background-position: 90%;
+  width: 100%;
+  height: 7vh;
+  border-radius: 15px 15px 0 0;
+  z-index: -2;
+}
+@mixin scale-up{
+  transform: scale(1.1);
+  transition: .3s;
+}
